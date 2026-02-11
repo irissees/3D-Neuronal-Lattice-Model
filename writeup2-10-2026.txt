@@ -1,0 +1,15 @@
+2-10-2026
+While this idea might have been overlooked in the past due to no obvious solve for permanent storage
+I've realized from how we know the brain works that we don't necesarily have to find one. 
+I had an idea to make a 3d neural network from a lattice of neurons.
+On each neuron, there would be a mean, standard deviation as weights & biases. Similar to gaussian splatting.
+An input signal is propagated through the lattice of neurons just as senses through the brain.
+Bounce angles are determined from mean and std deviation.
+If this hypothesis is correct, selective transparency glass computing can be the new era of computing.
+Lattice structure states can be predesigned, found from Reinforcement Learning and backpropagated.
+Sensory inputs are be mixed and computed in parallel while learning from each other's interactions in the latent space at the same time.
+Previous belief about how the brain works, states neurons stretch to new ideas from new learned connections for effiency and new knowledge. 
+I believe the lattice neuron states are shaped from different frequencies of sensory input.
+
+While the pulse of any sensory input can travel anywhere in the 3d lattice, 
+different types of inputs will tend to correlate with different areas as the state was designed, as it was learned, or as it was evolved.

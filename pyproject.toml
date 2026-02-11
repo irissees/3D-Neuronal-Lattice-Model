@@ -1,0 +1,35 @@
+[project]
+name = "cross-dimensional-architecture"
+version = "0.1.0"
+description = "Cross-Dimension Toroidal Pulse Architecture - Neural lattice autoencoder with PyTorch Lightning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # Core ML
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "torchaudio>=2.0.0",
+    "pytorch-lightning>=2.0.0",
+    # Scientific computing
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    # Visualization
+    "plotly>=5.14.0",
+    # Jupyter support
+    "ipykernel>=6.22.0",
+    "nbformat>=5.8.0",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "ipywidgets>=8.1.8",
+    "faiss-cpu>=1.13.2",
+    "transformers>=5.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.3.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+train-lattice = "lightning_trainer:main"
